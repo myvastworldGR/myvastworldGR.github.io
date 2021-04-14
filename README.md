@@ -1,2 +1,6 @@
 # myvastworldGR.github.io
-Ejemplo de sitio web.
+
+## García Ramírez Alan Jair
+## Grupo: IC-51
+
+
