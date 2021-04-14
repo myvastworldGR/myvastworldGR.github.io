@@ -1,0 +1,25 @@
+html {
+  --colContenido: #0c0c00;
+  --colContenidoFondo: white;
+  --colPrimario: ##0c0c00;
+  --colPrimarioFondo: #ffff00;
+  --colActive: #4646462c;
+  --colCampoSinFoco: #c7cc00;
+  --colCampoFoco: #ffff5a;
+  --colError: #b00020;
+  --colCampoFondo: #F5F5F5;
+  --colCampoFondoHover: #EEEEEE;
+  --colCampoFondoFocus: #E0E0E0;
+  --colCheckOn: #0277BD;
+  --colCheckFondo: #BDBDBD;
+  /* Los 2 primeros fonts son para
+   * apple y "Roboto" es para
+   * Android. */
+  --fontFamily: -apple-system,
+    BlinkMacSystemFont, Roboto,
+    sans-serif;
+  color: var(--colContenido);
+  font-family: var(--fontFamily);
+  background-color:
+    var(--colContenidoFondo);
+}

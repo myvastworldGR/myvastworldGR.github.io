@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,
+       initial-scale=1.0">
+  <title>
+    Archivos y Cámara
+  </title>
+  <meta name="theme-color"
+    content="#81d4f4">
+  <link rel="icon" sizes="32x32"
+    href="favicon.ico">
+  <link rel="manifest"
+    href="site.webmanifest">
+  <link rel="stylesheet"
+    href="css/estilos.css">
+<body>
+  <script type="module"
+    src="js/config.js"></script>
+  <header>
+    <h1>Archivos y Cámara</h1>
+  </header>
+  <campo-dinamico>
+    <input id="foto"
+      type="file"
+      accept="image/*"
+      capture="camera">
+    <label for="foto">
+      Foto de Móvil
+    </label>
+  </campo-dinamico>
+  <campo-dinamico>
+    <input id="video"
+      type="file"
+      accept="video/*"
+      capture="">
+    <label for="video">
+      Video de Móvil
+    </label>
+  </campo-dinamico>
+  <campo-dinamico>
+    <input id="archivo"
+      type="file">
+    <label for="archivo">
+      Archivo
+    </label>
+  </campo-dinamico>
+  <mi-nav></mi-nav>
+</body>
+</html>
