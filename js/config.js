@@ -5,18 +5,24 @@ class MiNav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* html */
       `<a href="index.html">
-        <span
-          class="material-icons">
-          home
-        </span>
-        Inicio
+      <span
+      class="material-icons">
+      home
+    </span>
+        Control
       </a>
-      <a href="formulario.html">
+      <a href="dispositivo.html">
+      <span class="material-icons">
+phone_iphone
+</span>
+        Dispositivo
+      </a>
+      <a href="historial.html">
         <span
           class="material-icons">
           fact_check
         </span>
-        Formulario
+        Historial
       </a>
       <a href="gps.html">
         <span
